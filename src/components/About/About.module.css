@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  padding: 100px 10%;
+  background-color: transparent; /* Set background to transparent */
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* Tech Grid Container */
+.techGridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 40px;
+  z-index: 2;
+}
+
+/* Tech Card */
+.techCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(42, 42, 42, 0.7); /* Semi-transparent background for cards */
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.techCard svg {
+  width: 80px;
+  height: 80px;
+}
+
+.techCard p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Hover effect */
+.techCard:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Title */
+.title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .techCard {
+    width: 120px;
+    height: 120px;
+  }
+
+  .techCard svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .techCard p {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}

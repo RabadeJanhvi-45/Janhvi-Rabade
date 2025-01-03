@@ -1,0 +1,15 @@
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+/* Apply custom cursor to a specific element */
+.custom-cursor {
+  cursor: url('/assets/about/cursorIcon.png'), auto !important;
+}

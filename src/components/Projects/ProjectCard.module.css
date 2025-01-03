@@ -1,0 +1,105 @@
+/* Container that holds all cards */
+.cards-container {
+  display: flex;
+  justify-content: space-between; /* Distribute cards evenly */
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  margin: 20px; /* Optional: Adjust margin for spacing around the container */
+}
+
+/* Each card */
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  width: calc(33.33% - 20px); /* Three cards in a row, subtract the gap between them */
+  max-width: 450px; /* Maximum width of each card */
+  min-height: 350px; /* Set a minimum height to maintain rectangle shape */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.container:hover {
+  transform: translateY(-10px); /* Adds lift effect on hover */
+}
+
+.image {
+  width: 100%;
+  height: 200px; /* Fixed height for rectangular image */
+  object-fit: cover; /* Ensures the image scales proportionally */
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 16px; /* Reduced font size for readability */
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+  flex-grow: 1; /* Ensures description takes remaining space */
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 5px 12px; /* Adjusted padding */
+  color: #fff; /* Ensure text color is visible */
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 16px; /* Adjusted font size */
+  font-weight: 600;
+  border-radius: 20px;
+  background: var(--color-primary);
+  padding: 5px 15px; /* Adjusted padding */
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: var(--color-secondary); /* Hover effect for links */
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: calc(50% - 20px); /* Two cards in a row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%; /* One card per row on very small screens */
+  }
+}

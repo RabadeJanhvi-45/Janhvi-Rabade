@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Crowdfunding Application",
+    "imageSrc": "projects/crowdfunding.png",
+    "description": "A decentralized platform built on blockchain to lower transaction fees by 15% and facilitate real-time campaign monitoring, fund management, and donation tracking.",
+    "skills": ["ReactJS", "Solidity", "Hardhat", "MetaMask"],
+    "demo": "https://github.com/RabadeJanhvi-45/CrowdForage-Crowd-Funding--Web3",
+    "source": "https://github.com/RabadeJanhvi-45/CrowdForage-Crowd-Funding--Web3"
+  },
+  {
+    "title": "Mock Interview Platform Using AI",
+    "imageSrc": "projects/mockinteview.png",
+    "description": "An AI-powered platform designed to simulate interviews, provide automated feedback, and enhance user readiness by 30% through machine learning.",
+    "skills": ["ReactJS", "ORM", "PL/SQL", "AI APIs"],
+    "demo": "https://github.com/RabadeJanhvi-45/Mock-Interview-Platform-Using-AI",
+    "source": "https://github.com/RabadeJanhvi-45/Mock-Interview-Platform-Using-AI"
+  },
+  {
+    "title": "Brain Tumor Detection App",
+    "imageSrc": "projects/braintumor.png",
+    "description": "Developed an AI-based app to analyze brain scans for precise real-time tumor detection, enabling quicker diagnosis and timely intervention.",
+    "skills": ["Android Studio", "Java", "Python", "ML"],
+    "demo": "https://github.com/RabadeJanhvi-45/BrainTumor-App",
+    "source": "https://github.com/RabadeJanhvi-45/BrainTumor-App"
+  },
+  {
+    "title": "Job Posting Portal",
+    "imageSrc": "projects/jobposting.png",
+    "description": "A job portal designed to simplify application processes, improving efficiency by 20% while optimizing backend performance using RESTful APIs.",
+    "skills": ["ReactJS", "Java", "Spring Boot", "MongoDB"],
+    "demo": "https://github.com/RabadeJanhvi-45/JobPosting-site",
+    "source": "https://github.com/RabadeJanhvi-45/JobPosting-site"
+  },
+  {
+    "title": "Personal Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "A ReactJS-based personal portfolio showcasing professional skills, past projects, and notable achievements in the tech industry.",
+    "skills": ["ReactJS", "CSS", "HTML", "JavaScript"],
+    "demo": "https://example.com/portfolio-demo",
+    "source": "https://github.com/username/personal-portfolio"
+  },
+  {
+    "title": "Titanic Survival Prediction",
+    "imageSrc": "projects/dataanalytics.jpeg",
+    "description": "A machine learning-based project that predicts Titanic passenger survival using data such as age, sex, class, and ticket details to train the model.",
+    "skills": ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib"],
+    "demo": "https://github.com/RabadeJanhvi-45/Titanic-Survival-Prediction-Using-Python",
+    "source": "https://github.com/RabadeJanhvi-45/Titanic-Survival-Prediction-Using-Python"
+  }
+]

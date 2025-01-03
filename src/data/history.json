@@ -1,0 +1,76 @@
+{
+  "hackathons": [
+    {
+      "role": "Participant",
+      "organisation": "AERAVAT Hackathon",
+      "startDate": "2024-09-06",
+      "endDate": "2024-09-06",
+      "experiences": [
+        "Participated in a 24-hour national-level hackathon at Sardar Patel Institute of Technology, Andheri.",
+        "Focused on innovative problem-solving and collaboration under time constraints.",
+        "Ranked among the top 40 teams, creating a well-received prototype solution."
+      ],
+      "imageSrc": "experience/hackathon.png",
+      "imageClass": "responsive-image"
+    }
+  ],
+  "volunteers": [
+    {
+      "role": "Student Coordinator",
+      "organisation": "Student Association of Computer Application (SACA)",
+      "startDate": "2024",
+      "endDate": "2024",
+      "experiences": [
+        "Coordinated student activities as part of the Student Association of Computer Application.",
+        "Organized events to enhance student engagement and skill-building opportunities.",
+        "Served as a bridge between students and faculty for effective communication."
+      ],
+      "imageSrc": "images/SACA.jpg"
+    },
+    {
+      "role": "Volunteer",
+      "organisation": "National Service Scheme (NSS)",
+      "startDate": "2020",
+      "endDate": "2023",
+      "experiences": [
+        "Contributed to community service initiatives under the NSS program.",
+        "Organized and participated in events promoting social awareness and development."
+      ]
+    },
+    {
+      "role": "Social Media Head",
+      "organisation": "Women's Development Cell & Economics Club",
+      "startDate": "2020",
+      "endDate": "2023",
+      "experiences": [
+        "Led social media campaigns to promote gender equality and economic literacy.",
+        "Coordinated with teams to organize events and drive engagement."
+      ]
+    }
+  ],
+  "eventsOrganized": [
+    {
+      "role": "Anchor",
+      "organisation": "NAAC Accreditation Event, MET ICS",
+      "startDate": "2024-10-02",
+      "endDate": "2024-10-02",
+      "experiences": [
+        "Anchored the NAAC accreditation event, presenting the Institute's history and achievements.",
+        "Engaged with a diverse audience of academics, administrators, and students.",
+        "Facilitated various event sections, including presentations and panel discussions."
+      ],
+      "imageSrc": "images/naac-event.jpg"
+    },
+    {
+      "role": "Participant",
+      "organisation": "International Student Workshop on Data Science using Python by Brainovision",
+      "startDate": "2024",
+      "endDate": "2024",
+      "experiences": [
+        "Gained hands-on experience in Data Science tools and techniques.",
+        "Participated in interactive sessions and completed practical assignments."
+      ],
+      "imageSrc": "images/data-science-workshop.jpg"
+    }
+  ]
+}
